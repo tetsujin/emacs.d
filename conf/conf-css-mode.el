@@ -1,0 +1,10 @@
+(autoload 'css-mode "css-mode")
+(defun my-css-mode-hook ()
+  (setq cssm-indent-level 2)
+  (setq cssm-indent-function 'cssm-c-style-indenter)
+  (define-key css-mode-map (kbd "C-c C-b") 'web-mode)
+  )
+(add-hook 'css-mode-hook 'my-css-mode-hook)
+(add-to-list 'auto-mode-alist '("\\.css$" . css-mode))
+
+(provide 'conf-css-mode)

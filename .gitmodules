@@ -1,0 +1,30 @@
+[submodule "elisp/auto-complete"]
+	path = elisp/auto-complete
+	url = git://github.com/auto-complete/auto-complete.git
+[submodule "elisp/php-mode"]
+	path = elisp/php-mode
+	url = git://github.com/ejmr/php-mode.git
+[submodule "elisp/web-mode"]
+	path = elisp/web-mode
+	url = git://github.com/fxbois/web-mode.git
+[submodule "elisp/emacs-php-align"]
+	path = elisp/emacs-php-align
+	url = git://github.com/tetsujin/emacs-php-align.git
+[submodule "elisp/emacs-smartchr"]
+	path = elisp/emacs-smartchr
+	url = git://github.com/imakado/emacs-smartchr.git
+[submodule "elisp/php-completion"]
+	path = elisp/php-completion
+	url = git://github.com/imakado/php-completion
+[submodule "elisp/scss-mode"]
+	path = elisp/scss-mode
+	url = git://github.com/antonj/scss-mode.git
+[submodule "elisp/migemo"]
+	path = elisp/migemo
+	url = git://github.com/emacs-jp/migemo.git
+[submodule "elisp/popwin-el"]
+	path = elisp/popwin-el
+	url = git://github.com/m2ym/popwin-el.git
+[submodule "elisp/auto-complete-etags"]
+	path = elisp/auto-complete-etags
+	url = git://github.com/whitypig/auto-complete-etags.git

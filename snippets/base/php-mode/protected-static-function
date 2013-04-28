@@ -1,0 +1,7 @@
+#name: protected static function (...) { ... }
+#key: protected-static-function
+# --
+protected static function ${1:function_name}(\$${2:arg1})
+{
+    $0
+}

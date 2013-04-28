@@ -1,0 +1,7 @@
+#name: public static function (...) { ... }
+#key: public-static-function
+# --
+public static function ${1:function_name}(\$${2:arg1})
+{
+    $0
+}

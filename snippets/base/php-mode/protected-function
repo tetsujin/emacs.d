@@ -1,0 +1,7 @@
+#name: protected function (...) { ... }
+#key: protected-function
+# --
+protected function ${1:function_name}(\$${2:arg1})
+{
+    $0
+}
